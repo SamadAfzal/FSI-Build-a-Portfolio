@@ -1,0 +1,452 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    cursor: pointer
+
+}
+html, body {
+    background: #234;
+   }
+
+
+/*Something after this causes all the words to disapear other than the top nav bar??*/
+.topthing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+ 
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+nav ul li{
+   display: inline-block;
+   list-style: none;
+   margin: 10px 20px;
+
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: red;
+
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 8%;
+
+
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #0ab7e7;
+    margin-bottom: 20px;
+
+
+}
+
+span{
+    color: orange;
+}
+
+.profile-pic{
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    border:4px solid;
+    margin:0 auto;
+    display: block;
+}
+
+.profilpic{
+  width: 200px;
+  height: 200px;
+  border-radius: 45%;
+
+
+
+
+}
+.detail p{
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    word-spacing: 0.2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none; 
+   }
+
+.detail a{
+    background: #212121;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+
+
+}
+
+.contact {
+    align-content: space-between;
+    padding-top: 20pt;
+    margin-left: 10%; 
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    font-weight: 400;
+    text-decoration: overline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#contactinfo {
+    padding-top: 10px;
+    justify-content: space-between;
+}
+    
+ 
+
+
+   
+   .dnbtn {
+     border: 2px solid #0ff;
+     border-radius: 50px;
+     position: absolute;
+     color: #0ff;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 25px 0 0 0;
+     width: 50px;
+     height: 25px;
+     text-decoration: none;
+     transition: .3s;
+   }
+   
+   .dnbtn:before {
+     font-family: 'FontAwesome';
+     content: '\00A3'; 
+     font-size: 26px;
+     color: #0ff;
+     position: "relative";
+     transform: translate(-50%, -50%);
+     transition: .3s;
+     font-weight: 900;
+   }
+   
+   .dnbtn:hover:before {
+     display: none;
+   }
+   
+  /*.dnbtn:hover:after {
+     font-family: Prompt;
+     content: 'DOWNLOAD';
+     color: #0ff;
+     font-size: 18px;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     transition: .3s;
+     animation: fadein .3s;
+   }
+   */
+   .quote{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #F1F1F1;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    position: static;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 5px;
+
+
+   }
+
+   a:link {
+    color: pink;
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(153, 97, 97);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+   
+   .dnbtn:hover {
+     width: 160px;
+   }
+   
+   @keyframes fadein {
+     from {
+       opacity: 0;
+     }
+     to {
+       opacity: 1;
+     }
+   }
+   
+   @keyframes fadeout {
+     from {
+       opacity: 1;
+     }
+     to {
+       opacity: 0;
+     }
+   }
+
+#footer { 
+        position: fixed; 
+        bottom: 55px;px;    
+        right: 5px;   
+        width: 95%;  
+        text-align:left; 
+        border-bottom: 9px ridge #FFFFFF; 
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  height: 45vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: 
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* Logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
