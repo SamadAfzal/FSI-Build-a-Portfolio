@@ -81,11 +81,40 @@ span{
   width: 200px;
   height: 200px;
   border-radius: 45%;
-
-
-
-
 }
+
+  .galaxy{
+
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    overflow: hidden;
+    border:4px solid;
+    margin:0 auto;
+    display: block;
+
+  }
+
+  .closeup{
+    position: absolute;
+    top: 20%;
+    left: 72.5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    overflow: hidden;
+    border:4px solid green;
+    margin:0 auto;
+    display: block;
+  }
+
+
+
+
+
 .detail p{
     color: rgb(255, 255, 255);
     line-height: 22px;
@@ -191,7 +220,7 @@ span{
     text-transform: capitalize;
     position: static;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 350px;
     padding-bottom: 5px;
 
 
@@ -245,7 +274,7 @@ span{
 
 #footer { 
         position: fixed; 
-        bottom: 55px;px;    
+        bottom: 55px;    
         right: 5px;   
         width: 95%;  
         text-align:left; 
@@ -266,7 +295,7 @@ section {
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
-  position: 
+  /* position:  */
 }
 
 .footer-distributed{
